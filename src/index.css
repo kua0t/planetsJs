@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+section{
+  height: 100vh;
+  width: 100%;
+}
+.a1{
+  background-image: url(assets/luna.webp);
+  background-position: center;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+}
+.a2{
+  background-image: url(assets/tierra.jpeg);
+  background-position: center;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+}
+.a3{
+  background-image: url(assets/marte.png);
+  background-position: center;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+}
+.a4{
+  background-image: url(assets/mercurio.jpg);
+  background-position: center;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+}
+.a5{
+  background-image: url(assets/sol.png);
+  background-position: center;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+}
+.a6{
+  background-image: url(assets/jupiter.webp);
+  background-position: center;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+}
+.a7{
+  background-image: url(assets/saturno.jpg);
+  background-position: center;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+}
+.a8{
+  background-image: url(assets/venus.jpg);
+  background-position: center;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+}
+p{
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+header{
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  position: fixed;
+  top: 50;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding-left: 15px;
+}
